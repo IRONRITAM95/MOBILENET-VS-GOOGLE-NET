@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+      <link rel="stylesheet" type="text/css" href="style.css">
+
+      <title>MOBILENET VS GOOGLE LENS.</title>
+    </head>
+    <body>
+        <center>
+            <h1 class="btn btn-danger" id="title">MOBILENET VS GOOGLE LENS</h1>
+            <ol>
+            <div class="test col-xs-12">
+           <li class="col-sm-4 col-xs-12">   
+            <b>IMAGE - </b>
+            <img src="download.jpg" class="img-responsive"></li>
+              
+            <h5 class="col-sm-4 col-xs-12  a">
+                <b>OUTPUT ON GOOGLE LENS -</b>
+                <span>BOTTLED WATER </span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12  a">
+                <b>OUTPUT ON MOBILENET MODEL -</b>
+                <span id="ans1"> </span>
+            </h5>
+
+            <div class="vs col-xs-12  a">
+                <h4>RESULT - DRAW </h4>
+                <hr>
+                <h4 id="vs1"></h4>
+            </div>
+            </div>
+            <br>
+
+            <div class="test col-xs-12">
+                <li class="col-sm-4 col-xs-12">   
+                 <b>IMAGE - </b>
+                 <img src="download (1).jpg" class="img-responsive"></li>
+                   
+                 <h5 class="col-sm-4 col-xs-12 a">
+                     <b>OUTPUT ON GOOGLE LENS -</b>
+                     <span>IRON MAN </span>
+                 </h5>
+     
+                 <h5 class="col-sm-4 col-xs-12 a">
+                     <b>OUTPUT ON MOBILENET MODEL -</b>
+                     <span id="ans2"> </span>
+                 </h5>
+     
+                 <div class="vs col-xs-12 a">
+                     <h4>RESULT - GOOGLE LENS IS BETTER</h4>
+                     <hr>
+                     <h4 id="vs2"></h4>
+                 </div>
+                 </div>
+                 <br>
+
+                 <div class="test col-xs-12">
+                    <li class="col-sm-4 col-xs-12">   
+                     <b>IMAGE - </b>
+                     <img src="images.jpg" class="img-responsive"></li>
+                       
+                     <h5 class="col-sm-4 col-xs-12 a">
+                         <b>OUTPUT ON GOOGLE LENS -</b>
+                         <span>THE FLASH </span>
+                     </h5>
+         
+                     <h5 class="col-sm-4 col-xs-12 a">
+                         <b>OUTPUT ON MOBILENET MODEL -</b>
+                         <span id="ans3"> </span>
+                     </h5>
+         
+                     <div class="vs col-xs-12 a">
+                         <h4>RESULT - GOOGLE LENS IS BETTER</h4>
+                         <hr>
+                         <h4 id="vs3"></h4>
+                     </div>
+                     </div>
+                     <br>
+            </ol>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
